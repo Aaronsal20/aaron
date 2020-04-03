@@ -23,6 +23,9 @@ const fileFilter = (req, file, cb) => {
 
 app.set('views',  '');
 app.set('view engine', 'html');
+app.set( 'port', ( process.env.PORT || 5000 ));
+
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '')));
