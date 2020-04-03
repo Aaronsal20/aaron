@@ -1,0 +1,17 @@
+{
+  "name": "aaron",
+  "version": "1.0.0",
+  "description": "personal freelancing website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aaron",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "html": "^1.0.0"
+  }
+}
